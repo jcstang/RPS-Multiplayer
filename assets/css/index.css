@@ -1,6 +1,23 @@
 body {
   font: 100% Helvetica, sans-serif;
   color: #333;
+  background-color: #333;
+}
+
+h1 {
+  background-color: #daa520;
+}
+
+h2 {
+  background-color: aquamarine;
+}
+
+#player-1 {
+  background-color: #20abd9;
+}
+
+#player-2 {
+  background-color: #abd920;
 }
 
 /*# sourceMappingURL=index.css.map */

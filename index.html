@@ -1,25 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rock, Paper, Scissors | Multiplayer</title>
-  <!-- reset.css -->
-  <link rel="stylesheet" href="./assets/css/reset.css.css">
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/d54a006847.js" crossorigin="anonymous"></script>
-  <!-- my style -->
-  <link rel="stylesheet" href="./assets/css/index.css">
-</head>
-<body>
-  <h1>hello</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors | Multiplayer</title>
+    <!-- reset.css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/d54a006847.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- my style -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <h1 class="display-4">Rock, Paper, Scissors</h1>
 
+    <!-- main container -->
+    <div class="container">
+      <div class="jumbotron">
+        <div class="row">
+          <!-- player 1 -->
+          <div class="card col-6">
+            <div class="card-body">
+              <span id="rock-one" class="far fa-hand-rock fa-9x"></span>
+              <span id="paper-one" class="far fa-hand-paper fa-9x"></span>
+              <span id="scissors-one" class="far fa-hand-scissors fa-9x"></span>
+            </div>
+            <div class="card-footer ">
+              <h3 id="player-1" class="display-4 text-center">Player 1</h3>
+            </div>
+          </div>
 
-  <!-- jquery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- my js -->
-  <script src="./assets/javascript/app.js"></script>
-</body>
+          <!-- player 2 -->
+          <div class="card col-6">
+            <div class="card-body">
+              <span id="rock-two" class="far fa-hand-rock fa-9x"></span>
+              <span id="paper-two" class="far fa-hand-paper fa-9x"></span>
+              <span id="scissors-two" class="far fa-hand-scissors fa-9x"></span>
+            </div>
+            <div class="card-footer ">
+              <h3  id="player-2" class="display-4 text-center">Player 2</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <i class="fas fa-chart-bar "></i>
+          Results
+        </div>
+        <div class="card-body">
+          other stuff
+        </div>
+      </div>
+    </div>
+    <!--end of main container  -->
+
+    <!-- jquery, popper, bootstrap js -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- my js -->
+    <script src="./assets/javascript/app.js"></script>
+  </body>
 </html>
