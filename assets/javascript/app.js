@@ -7,8 +7,11 @@ $(document).ready(function () {
   function goGray(choice) {
     console.log('goGray() ', choice);
     var player = choice.substr(choice.length - 3);
+
+    // make selection black
     $('#' + choice).css('color', '#333');
 
+    // others gray
     if (player === 'one') {
       if (choice === 'rock-one') {
         $('#paper-one').css('color', 'lightgrey');
